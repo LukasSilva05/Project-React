@@ -1,4 +1,4 @@
-import { Box } from "../../components/Box/Box"
+import { Box } from '../../components/Box/Box'
 import { getChapter } from '../../data/data'
 import { Global } from "../../Global/style"
 import { Container } from "./style"
