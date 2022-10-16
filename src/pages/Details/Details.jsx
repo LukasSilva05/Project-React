@@ -1,4 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom"
+import { Button } from "../../components/Box/style"
 
 export function Details() {
     const location = useLocation()
