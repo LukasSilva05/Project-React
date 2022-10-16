@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-import getChapter from "../../data/data"
+import { getChapter } from "../../data/data"
 
 export function Home() {
   const chapters = getChapter()

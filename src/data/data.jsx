@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-function getChapter() {
+export function getChapter() {
     const [chapters, setChapters] = useState([])
 
     useEffect(() => {
@@ -15,5 +15,3 @@ function getChapter() {
 
     return chapters
 }
-
-export default getChapter
