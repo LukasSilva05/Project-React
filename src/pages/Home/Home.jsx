@@ -2,7 +2,7 @@ import { getChapter } from '../../data/data'
 import { Global } from "../../Global/style"
 import { Container } from "./style"
 import { useNavigate } from "react-router-dom"
-import { BoxContainer, Button } from "../../components/Box/style"
+import { BoxContainer, Button } from './style'
 
 export function Home() {
   const chapters = getChapter()
