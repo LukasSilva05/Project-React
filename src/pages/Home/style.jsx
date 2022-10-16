@@ -20,7 +20,7 @@ export const BoxContainer = styled.div`
     border-left: 2px solid #3fc73f;
     border-radius: 15px;
 
-    width: 90%;
+    width: 90vw;
     padding: 18px 25px;
     margin-bottom: 50px;
 `
