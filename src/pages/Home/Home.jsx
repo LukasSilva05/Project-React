@@ -14,7 +14,7 @@ export function Home() {
       {chapters.map(cap => {
         return (
           <BoxContainer>
-            <h1>{cap.chapter}</h1>
+            <h1>{cap.chapter}: {cap.tittle}</h1>
             <Button onClick={() => navigation("/details", { state: { cap } })}>
               Detalhes do Capítulo
             </Button>

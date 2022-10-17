@@ -5,8 +5,7 @@ export const Container = styled.div`
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
-    height: 100vh;
-    margin: 15px;
+    margin: 10px;
     padding-top: 200px;
     background: #f8f8f8;
 `
@@ -16,12 +15,13 @@ export const BoxContainer = styled.div`
     flex-direction: row;
     justify-content: space-between;
 
-    border-top: 5px solid #3fc73f;
+    border-top: 6px solid #3fc73f;
     border-left: 2px solid #3fc73f;
+    border-bottom: 1px solid #3fc73f;
     border-radius: 15px;
 
-    width: 90vw;
-    padding: 18px 25px;
+    width: 93%;
+    padding: 25px 25px;
     margin-bottom: 50px;
 `
 

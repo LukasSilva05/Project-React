@@ -7,7 +7,7 @@ export function Details() {
 
     return (
         <div>
-            <h1>{location.state.cap.chapter}: {location.state.cap.tittle}</h1>
+            <h1>{location.state.cap.tittle}</h1>
             <p>{location.state.cap.resume}</p>
             <Button onClick={() => navigation("/")}>Voltar</Button>
             <a href={location.state.cap.flashcards} target="_blank"><Button>Flashcards</Button></a>
