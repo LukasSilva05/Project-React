@@ -16,7 +16,7 @@ export function Home() {
           <BoxContainer>
             <h1>{cap.chapter}: {cap.tittle}</h1>
             <Button onClick={() => navigation("/details", { state: { cap } })}>
-              Detalhes do Capítulo
+              Detalhes do capítulo
             </Button>
           </BoxContainer>
         )

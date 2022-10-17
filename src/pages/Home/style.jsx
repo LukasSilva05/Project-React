@@ -18,23 +18,29 @@ export const BoxContainer = styled.div`
     border-top: 6px solid #3fc73f;
     border-left: 2px solid #3fc73f;
     border-bottom: 1px solid #3fc73f;
-    border-radius: 15px;
+    border-radius: 20px;
 
     width: 93%;
-    padding: 25px 25px;
+    padding: 40px 30px;
     margin-bottom: 50px;
 `
 
 export const Button = styled.button`
-    border-radius: 10px;
+    background: #e6e6e6;
+    height: 55px;
+    width: 250px;
     padding: 10px;
+
     font-family: 'JetBrains Mono', monospace;
     font-size: 18px;
+
     border: none;
     border-bottom: 3px solid #3fc73f;
     border-right: 2px solid #3fc73f;
-    background: #e6e6e6;
+    border-radius: 30px;
 
+    cursor: pointer;
+    
     :hover {
         filter: brightness(0.9);
     }
