@@ -24,9 +24,9 @@ export const Container = styled.div`
         display: flex;
         justify-content: space-between;
 
-        a{
-                margin-left: 10px;
-            }
+        a {
+            margin-left: 10px;
+        }
     }
 
 `

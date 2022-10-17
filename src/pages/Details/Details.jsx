@@ -15,7 +15,7 @@ export function Details() {
             <div>
                 <Button onClick={() => navigation("/")}>Voltar</Button>
                 <div>
-                    <a href={cap.download} target="_blank"><Button>Baixar PDF</Button></a>
+                    <a href={cap.download}><Button>Baixar PDF</Button></a>
                     <a target="_blank"><Button>Mapa Mental</Button></a>
                     <a href={cap.flashcards} target="_blank"><Button>Flashcards</Button></a>
                 </div>
