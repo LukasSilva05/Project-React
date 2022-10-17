@@ -6,17 +6,40 @@ export const Container = styled.div`
     justify-content: space-around;
     background: #f8f8f8;
     box-shadow: 0 0 5px rgba(0,0,0,0.9);
-
+    height: 100vh;
     border-radius: 15px;
     margin: 20px;
-    height: 100vh;
-    padding: 0 50px;
-
+    padding: 30px 40px;
     text-align: justify;
-    
+
+    div {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            margin-left: 10px;
+        }
+    }
+`
+
+export const Caixa = styled.div`
+    display: flex;
+    flex-direction : column;
+    justify-content: space-between;
+    padding: 40px 40px;
+    height: 70%;
+
+    border-top: 6px solid #3fc73f;
+    border-left: 1px solid #3fc73f;
+    border-bottom: 1px solid #3fc73f;
+    border-right: 1px solid #3fc73f;
+    border-radius: 20px;
+
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+
     section {
         display: flex;
-        flex-direction: column;
+        flex-flow: column wrap;
             h1 {
                 font-size: 45px;
                 text-shadow: 0 0 5px rgba(0,0,0,0.4);
@@ -25,16 +48,6 @@ export const Container = styled.div`
                 font-size: 20px;
                 text-shadow: 0 0 5px rgba(0,0,0,0.4);
             }
-    }
-
-    
-    div {
-        display: flex;
-        justify-content: space-between;
-
-        a {
-            margin-left: 10px;
-        }
     }
 
 `
@@ -59,4 +72,19 @@ export const Button = styled.button`
     :hover {
         filter: brightness(0.9);
     }
+`
+
+export const Buttons = styled.div`
+    display: flex;
+    flex-flow: row wrap;
+    padding: 40px 30px;
+    height: 6%;
+
+    border-bottom: 6px solid #3fc73f;
+    border-left: 1px solid #3fc73f;
+    border-top: 1px solid #3fc73f;
+    border-right: 1px solid #3fc73f;
+    border-radius: 20px;
+
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
 `

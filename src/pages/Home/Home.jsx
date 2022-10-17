@@ -1,26 +1,14 @@
 import { getChapter } from '../../data/data'
 import { Global } from "../../Global/style"
 import { Container } from "./style"
-import { useNavigate } from "react-router-dom"
-import { BoxContainer, Button } from './style'
+import { Box } from '../../components/Box'
 
 export function Home() {
   const chapters = getChapter()
-  const navigation = useNavigate()
-
   return (
     <Container>
       <Global />
-      {chapters.map(cap => {
-        return (
-          <BoxContainer>
-            <h1>{cap.chapter}: {cap.tittle}</h1>
-            <Button onClick={() => navigation("/details", { state: { cap } })}>
-              Detalhes
-            </Button>
-          </BoxContainer>
-        )
-      })}
+      {chapters.map(cap => <Box cap={cap} />)}
     </Container>
   )
 }
