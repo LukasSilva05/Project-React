@@ -5,7 +5,7 @@ export const Container = styled.div`
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
-    margin: 10px;
+    margin: 20px;
     padding-top: 50px;
     background: #f8f8f8;
     box-shadow: 0 0 5px rgba(0,0,0,0.9);
@@ -31,12 +31,11 @@ export const BoxContainer = styled.div`
 
 export const Button = styled.button`
     background: #e6e6e6;
-    width: 330px;
-    padding: 12px;
-    height: 65px;
+    width: 230px;
+    padding: 10px;
 
     font-family: 'JetBrains Mono', monospace;
-    font-size: 22px;
+    font-size: 25px;
     text-shadow: 0 0 5px rgba(0,0,0,0.4);
 
     border: none;
