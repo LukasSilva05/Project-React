@@ -3,23 +3,31 @@ import styled from "styled-components"
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background: #f8f8f8;
+    box-shadow: 0 0 5px rgba(0,0,0,0.9);
 
     border-radius: 15px;
     margin: 10px;
     height: 100vh;
-    padding: 50px;
+    padding: 0 50px;
 
     text-align: justify;
-
-    h1 {
-        font-size: 45px;
+    
+    section {
+        display: flex;
+        flex-direction: column;
+            h1 {
+                font-size: 45px;
+                text-shadow: 0 0 5px rgba(0,0,0,0.4);
+            }
+            p {
+                font-size: 20px;
+                text-shadow: 0 0 5px rgba(0,0,0,0.4);
+            }
     }
-    p {
-        padding-bottom: 50px;
-        font-size: 20px;
-    }
 
+    
     div {
         display: flex;
         justify-content: space-between;
@@ -38,10 +46,12 @@ export const Button = styled.button`
 
     font-family: 'JetBrains Mono', monospace;
     font-size: 25px;
+    text-shadow: 0 0 5px rgba(0,0,0,0.4);
 
     border: none;
-    border-bottom: 3px solid #3fc73f;
+    border-bottom: 2px solid #3fc73f;
     border-right: 2px solid #3fc73f;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
     border-radius: 30px;
     
     cursor: pointer;
