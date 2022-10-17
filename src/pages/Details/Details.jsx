@@ -11,10 +11,10 @@ export function Details() {
         <Container>
             <Global />
             <Caixa>
-                <section>
+                <div>
                     <h1>{cap.tittle}</h1>
                     <p>{cap.resume}</p>
-                </section>
+                </div>
             </Caixa>
             <Buttons>
                 <Button onClick={() => navigation("/")}>Voltar</Button>
