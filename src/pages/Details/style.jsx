@@ -15,10 +15,7 @@ export const Container = styled.div`
     div {
         display: flex;
         justify-content: space-between;
-
-        a {
-            margin-left: 10px;
-        }
+        gap: 15px;
     }
 `
 
