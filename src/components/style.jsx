@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const BoxContainer = styled.div`
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
-    flex-direction: row;
     justify-content: space-between;
+    margin: 0 30px;
     text-shadow: 0 0 5px rgba(0,0,0,0.4);
 
     border-top: 6px solid #3fc73f;
@@ -14,19 +15,17 @@ export const BoxContainer = styled.div`
     border-radius: 20px;
 
     box-shadow: 0 0 5px rgba(0,0,0,0.4);
-    width: 93%;
-    padding: 40px 30px;
-    margin-bottom: 50px;
+    padding: 35px;
 `
 
 
 export const Button = styled.button`
     background: #e6e6e6;
-    width: 230px;
+    width: 200px;
     padding: 10px;
 
     font-family: 'JetBrains Mono', monospace;
-    font-size: 25px;
+    font-size: 18px;
     text-shadow: 0 0 5px rgba(0,0,0,0.4);
 
     border: none;

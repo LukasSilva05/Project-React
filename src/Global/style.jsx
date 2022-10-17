@@ -7,5 +7,6 @@ export const Global = createGlobalStyle`
         box-sizing: border-box;
         background: #3fc73f;
         font-family: 'JetBrains Mono', monospace;
+
     }
 `

@@ -3,10 +3,10 @@ import styled from "styled-components"
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 20px;
+
     background: #f8f8f8;
     box-shadow: 0 0 5px rgba(0,0,0,0.9);
-    height: 100vh;
     border-radius: 15px;
     margin: 20px;
     padding: 30px 40px;
@@ -23,8 +23,7 @@ export const Caixa = styled.div`
     display: flex;
     flex-direction : column;
     justify-content: space-between;
-    padding: 40px 40px;
-    height: 70%;
+    padding: 50px 40px;
 
     border-top: 6px solid #3fc73f;
     border-left: 1px solid #3fc73f;
@@ -35,15 +34,12 @@ export const Caixa = styled.div`
     box-shadow: 0 0 5px rgba(0,0,0,0.4);
 
     section {
-        display: flex;
-        flex-flow: column wrap;
+        text-shadow: 0 0 5px rgba(0,0,0,0.4);
             h1 {
-                font-size: 45px;
-                text-shadow: 0 0 5px rgba(0,0,0,0.4);
+                font-size: 30px;        
             }
             p {
-                font-size: 20px;
-                text-shadow: 0 0 5px rgba(0,0,0,0.4);
+                font-size: 16px;
             }
     }
 
@@ -51,11 +47,11 @@ export const Caixa = styled.div`
 
 export const Button = styled.button`
     background: #e6e6e6;
-    width: 230px;
+    width: 200px;
     padding: 10px;
 
     font-family: 'JetBrains Mono', monospace;
-    font-size: 25px;
+    font-size: 18px;
     text-shadow: 0 0 5px rgba(0,0,0,0.4);
 
     border: none;
@@ -73,9 +69,8 @@ export const Button = styled.button`
 
 export const Buttons = styled.div`
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     padding: 40px 30px;
-    height: 6%;
 
     border-bottom: 6px solid #3fc73f;
     border-left: 1px solid #3fc73f;
@@ -84,4 +79,8 @@ export const Buttons = styled.div`
     border-radius: 20px;
 
     box-shadow: 0 0 5px rgba(0,0,0,0.4);
+
+    div {
+        flex-wrap: wrap;
+    }
 `
