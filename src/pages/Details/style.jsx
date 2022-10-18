@@ -34,6 +34,7 @@ export const Caixa = styled.div`
     box-shadow: 0 0 5px rgba(0,0,0,0.4);
 
     div {
+        flex-direction : column;
         text-shadow: 0 0 5px rgba(0,0,0,0.4);
             h1 {
                 font-size: 30px;        
