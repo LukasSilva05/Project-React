@@ -11,14 +11,14 @@ export function Details() {
         <Container>
             <Global />
             <Caixa>
-                <div>
+                <div id="resumeCard">
                     <h1>{cap.tittle}</h1>
                     <p>{cap.resume}</p>
                 </div>
             </Caixa>
             <Buttons>
                 <Button onClick={() => navigation("/")}>Voltar</Button>
-                <div>
+                <div id="detailsButton">
                     <a><Button>Baixar PDF</Button></a>
                     <a target="_blank"><Button>Mapa Mental</Button></a>
                     <a href={cap.flashcards} target="_blank"><Button>Flashcards</Button></a>

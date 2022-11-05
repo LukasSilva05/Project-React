@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react"
+import axios from "axios"
 
 export function getChapter() {
     const [chapters, setChapters] = useState([])
 
     useEffect(() => {
         async function fetchChapter() {
-            const response = await fetch('https://api-projeto-react.herokuapp.com')
-            const data = await response.json()
-
+            const response = await axios('https://api-projeto-react.herokuapp.com')
+            const data = response.data
             setChapters(data)
         }
         fetchChapter()

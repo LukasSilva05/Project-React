@@ -8,15 +8,10 @@ export const Container = styled.div`
     background: #f8f8f8;
     box-shadow: 0 0 5px rgba(0,0,0,0.9);
     border-radius: 15px;
-    margin: 20px;
-    padding: 30px 40px;
+    margin: 12px;
+    padding: 20px;
     text-align: justify;
 
-    div {
-        display: flex;
-        justify-content: space-between;
-        gap: 15px;
-    }
 `
 
 export const Caixa = styled.div`
@@ -70,6 +65,7 @@ export const Button = styled.button`
 
 export const Buttons = styled.div`
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 40px 30px;
 
@@ -81,7 +77,9 @@ export const Buttons = styled.div`
 
     box-shadow: 0 0 5px rgba(0,0,0,0.4);
 
-    div {
-        flex-wrap: wrap;
+    #detailsButton {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
     }
 `
